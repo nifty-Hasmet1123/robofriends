@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.field {
+    display: inline-block;
+    padding: 3px;
+}
+
+.input-tag {
+    margin: 10px;
+}
+
+.input-tag::placeholder {
+    text-align: center;
+}
+
+/* #create {
+    adjust the background but not the text
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    background: linear-gradient(to right, #ff5733, #ffcc33);
+    -webkit-background-clip: "text";
+} */
+
+#create {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    background: linear-gradient(to right, #12a7c2, #07eb2d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    padding: 3px;
+}

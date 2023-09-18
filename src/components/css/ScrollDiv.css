@@ -1,0 +1,10 @@
+#scroll-div {
+    overflow-y: scroll;
+    border: 5px solid black;
+    height: 500px;
+    scrollbar-width: none;
+}
+
+#scroll-div::-webkit-scrollbar {
+    display: none;
+}

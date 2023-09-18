@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.title {
+    background: linear-gradient(to left, #f30505fb, #d0fd05fb);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
