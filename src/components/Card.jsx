@@ -1,8 +1,6 @@
 import "./css/Card.css";
 
 const Card = ({ id, name, email }) => {
-    // you can also do this on Card.css
-    // jsx is flexible.
     const imgStyle = {
         height: "200px",
         width: "200px"
@@ -12,23 +10,12 @@ const Card = ({ id, name, email }) => {
     // const { id, name, email } = props;
     // bg-light-green
     return (
-        <div 
-        className="container 
-                    
-                    dib
-                    br3
-                    pa3
-                    ma2
-                    grow 
-                    bw2 
-                    shadow-5
-                    tc"
-        >
+        <div className="container dib br3 pa3 ma2 grow bw2 shadow-5 tc">
             <img 
-            className="robot" 
-            src={`https://robohash.org/${id + "robot gang"}`} 
-            alt="robot" 
-            style={imgStyle}
+                className="robot" 
+                src={`https://robohash.org/${id + "robot gang"}`} 
+                alt="robot" 
+                style={imgStyle}
             />
 
             <div>
@@ -38,10 +25,5 @@ const Card = ({ id, name, email }) => {
         </div>
     );
 }
-
-
-// const Card = (props) => {
-//     return cardView(props);
-// }
 
 export default Card;
